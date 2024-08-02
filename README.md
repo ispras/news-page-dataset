@@ -164,8 +164,8 @@ JSONs structure for other languages:
 
 ## Download
 
-* Multilingual dataset (1.1 GB): [`data/annotations`](./data/annotations)
-* Russian-language web pages in MHTML format (zipped 1 GB): [`data/mhtml-ru.zip`](./data/mhtml-ru.zip)
+* Multilingual dataset (1.1 GB): [`annotations/`](https://nextcloud.ispras.ru/index.php/s/zbaDqkxmQPmaEkT)
+* Russian-language web pages in MHTML format (zipped 1 GB): [`news-page-dataset-mhtmls.zip`](https://nextcloud.ispras.ru/index.php/s/YDwme8jSByQY2xC)
 
 
 ## Citation
