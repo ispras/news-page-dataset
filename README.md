@@ -1,8 +1,27 @@
-# Dataset For Information Extraction From News Web Pages
+
+# ISPRAS News Datasets Collection
+
+<summary>Table of Contents</summary>
+
+- [Dataset For Information Extraction From News Web Pages](#Dataset-For-Information-Extraction-From-News-Web-Pages)
+  - [Dataset Description](#Dataset-Description)
+  - [Data Collection](#Data-Collection)
+  - [Dataset Format](#Dataset-Format)
+  - [Download](#Download)
+  - [Citation](#Citation)
+- [NewsListDataset](#NewsListDataset)
+  - [Dataset Description](#Dataset-Description)
+  - [Data Collection](#Data-Collection)
+  - [Dataset Format](#Dataset-Format)
+  - [Download](#Download)
+  - [Citation](#Citation)
+
+
+## Dataset For Information Extraction From News Web Pages
 
 Multilingual dataset of labeled news web pages for information extraction task
 
-## Dataset Description
+### Dataset Description {#description-1}
 Dataset contains websites in 6 languages: Russian, English, German, Chinese, Korean, Arabic. We labeled news pages with attributes from these sets:
 * For Russian: title, subtitle, publication date, modification date, text, authors, sources, categories, tags
 * For other languages: title, publication date, text, authors, tags
@@ -102,13 +121,13 @@ Dataset contains websites in 6 languages: Russian, English, German, Chinese, Kor
 </table>
 
 
-## Data Collection
+### Data Collection {#data-collection-1}
 
 Creating the Russian-language part of the dataset is described in our [paper](https://ieeexplore.ieee.org/document/10076872). The annotators marked up web pages using Label Studio according to the [guideline](./MANIFEST.md).
 
 For other languages, we marked up nodes on pages using sitemaps created in the [Web Scraper](https://github.com/ispras/web-scraper-chrome-extension).
 
-## Dataset Format
+### Dataset Format {#data-format-1}
 
 For Russian-language part we have JSON file with the following structure (Label Studio JSON MIN format):
 ```
@@ -162,13 +181,13 @@ JSONs structure for other languages:
 ...}
 ```
 
-## Download
+### Download {#download-1}
 
 * Multilingual dataset (1.1 GB): [`annotations/`](https://nextcloud.ispras.ru/index.php/s/zbaDqkxmQPmaEkT)
 * Russian-language web pages in MHTML format (zipped 1 GB): [`news-page-dataset-mhtmls.zip`](https://nextcloud.ispras.ru/index.php/s/YDwme8jSByQY2xC)
 
 
-## Citation
+### Citation {#citation-1}
 
 More details about the Russian-language part of the dataset are available in our [paper](https://ieeexplore.ieee.org/document/10076872). Please cite us if you use or discuss this dataset in your work:
 ```
@@ -183,3 +202,39 @@ More details about the Russian-language part of the dataset are available in our
   keywords={Annotations;Neural networks;Web pages;Data aggregation;Information retrieval;Data mining;Electronic commerce;web data extraction;information extraction;news;webpage dataset;neural networks},
   doi={10.1109/ISPRAS57371.2022.10076872}}
 ```
+
+## NewsListDataset
+Dataset for extracting news records with their attributes from html pages. 
+### Dataset Description {#dataset-description-2}
+This dataset contains pages with lists of news in Russian.
+The following attributes were marked: title, date, tag, short_text, time, short_title, author.
+
+Their distribution:
+
+|             | Pages | Records | Domains |
+|-------------|-------|---------|---------|
+| title       | 12679 | 247262  | 275     |
+| date        | 12296 | 241634  | 251     |
+| tag         | 6165  | 108400  | 140     |
+| short_text  | 6855  | 115983  | 138     |
+| time        | 1938  | 41892   | 8       |
+| short_title | 105   | 1289    | 4       |
+| author      | 87    | 957     | 1       |
+
+Totally dataset contains 13099 pages.
+
+### Dataset Format {#dataset-format-2}
+Each file from data folder is instance of json dictionary with fields:
+* **html**: formatted html code of page
+* **exist_labels**: labels which are located at html
+* **domain**: domain of page
+* **labeled_xpaths**: dictionary of xpaths and its labels
+* **timestamp**: timestamp of date, when page was loaded
+* **url**: url of page
+* **record_xpaths**: xpaths of block-nodes(first text node of each record)
+
+### Download {#download-2}
+Dataset available at: 
+* NewsListDataset (915 MB): [`russian.json`](https://nextcloud.ispras.ru/index.php/s/ZP4D8cjAs4FcAjx)
+
+This file is dump of python-like list object, each item of it is instance of dictionary with fields described at [Dataset Format](#dataset-format-2) . So the size of list is 13099 items.
