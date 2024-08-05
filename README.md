@@ -1,27 +1,25 @@
 
 # ISPRAS News Datasets Collection
 
-<summary>Table of Contents</summary>
+<summary>Datasets:</summary>
 
 - [Dataset For Information Extraction From News Web Pages](#Dataset-For-Information-Extraction-From-News-Web-Pages)
-  - [Dataset Description](#Dataset-Description)
-  - [Data Collection](#Data-Collection)
-  - [Dataset Format](#Dataset-Format)
-  - [Download](#Download)
-  - [Citation](#Citation)
+  - [Dataset Description](#dataset-description-1)
+  - [Data Collection](#data-collection-1)
+  - [Dataset Format](#dataset-format-1)
+  - [Download](#download-1)
+  - [Citation](#citation-1)
 - [NewsListDataset](#NewsListDataset)
-  - [Dataset Description](#Dataset-Description)
-  - [Data Collection](#Data-Collection)
-  - [Dataset Format](#Dataset-Format)
-  - [Download](#Download)
-  - [Citation](#Citation)
+  - [Dataset Description](#dataset-description-2)
+  - [Dataset Format](#dataset-format-2)
+  - [Download](#download-2)
 
 
 ## Dataset For Information Extraction From News Web Pages
 
 Multilingual dataset of labeled news web pages for information extraction task
 
-### Dataset Description {#description-1}
+### Dataset Description {#dataset-description-1}
 Dataset contains websites in 6 languages: Russian, English, German, Chinese, Korean, Arabic. We labeled news pages with attributes from these sets:
 * For Russian: title, subtitle, publication date, modification date, text, authors, sources, categories, tags
 * For other languages: title, publication date, text, authors, tags
@@ -127,7 +125,7 @@ Creating the Russian-language part of the dataset is described in our [paper](ht
 
 For other languages, we marked up nodes on pages using sitemaps created in the [Web Scraper](https://github.com/ispras/web-scraper-chrome-extension).
 
-### Dataset Format {#data-format-1}
+### Dataset Format {#dataset-format-1}
 
 For Russian-language part we have JSON file with the following structure (Label Studio JSON MIN format):
 ```
