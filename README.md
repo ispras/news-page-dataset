@@ -19,7 +19,8 @@
 
 Multilingual dataset of labeled news web pages for information extraction task
 
-### Dataset Description {#dataset-description-1}
+<h3 id="dataset-description-1">Dataset Description</h3> 
+
 Dataset contains websites in 6 languages: Russian, English, German, Chinese, Korean, Arabic. We labeled news pages with attributes from these sets:
 * For Russian: title, subtitle, publication date, modification date, text, authors, sources, categories, tags
 * For other languages: title, publication date, text, authors, tags
@@ -119,7 +120,7 @@ Dataset contains websites in 6 languages: Russian, English, German, Chinese, Kor
 </table>
 
 
-### Data Collection {#data-collection-1}
+<h3 id="data-collection-1">Data Collection</h3> 
 
 Creating the Russian-language part of the dataset is described in our [paper](https://ieeexplore.ieee.org/document/10076872). The annotators marked up web pages using Label Studio according to the [guideline](./MANIFEST.md).
 
@@ -179,13 +180,13 @@ JSONs structure for other languages:
 ...}
 ```
 
-### Download {#download-1}
+<h3 id="download-1">Download</h3> 
 
 * Multilingual dataset (1.1 GB): [`annotations/`](https://nextcloud.ispras.ru/index.php/s/zbaDqkxmQPmaEkT)
 * Russian-language web pages in MHTML format (zipped 1 GB): [`news-page-dataset-mhtmls.zip`](https://nextcloud.ispras.ru/index.php/s/YDwme8jSByQY2xC)
 
 
-### Citation {#citation-1}
+<h3 id="citation-1">Citation</h3> 
 
 More details about the Russian-language part of the dataset are available in our [paper](https://ieeexplore.ieee.org/document/10076872). Please cite us if you use or discuss this dataset in your work:
 ```
@@ -203,7 +204,9 @@ More details about the Russian-language part of the dataset are available in our
 
 ## NewsListDataset
 Dataset for extracting news records with their attributes from html pages. 
-### Dataset Description {#dataset-description-2}
+
+<h3 id="dataset-description-2">Dataset Description</h3> 
+
 This dataset contains pages with lists of news in Russian.
 The following attributes were marked: title, date, tag, short_text, time, short_title, author.
 
@@ -221,7 +224,8 @@ Their distribution:
 
 Totally dataset contains 13099 pages.
 
-### Dataset Format {#dataset-format-2}
+<h3 id="dataset-format-2">Dataset Format</h3> 
+
 Each file from data folder is instance of json dictionary with fields:
 * **html**: formatted html code of page
 * **exist_labels**: labels which are located at html
@@ -231,7 +235,8 @@ Each file from data folder is instance of json dictionary with fields:
 * **url**: url of page
 * **record_xpaths**: xpaths of block-nodes(first text node of each record)
 
-### Download {#download-2}
+<h3 id="download-2">Dataset Format</h3> 
+
 Dataset available at: 
 * NewsListDataset (915 MB): [`russian.json`](https://nextcloud.ispras.ru/index.php/s/ZP4D8cjAs4FcAjx)
 
