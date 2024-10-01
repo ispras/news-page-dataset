@@ -1,8 +1,6 @@
 
 # ISPRAS News Datasets Collection
 
-<summary>Datasets:</summary>
-
 - [Dataset For Information Extraction From News Web Pages](#Dataset-For-Information-Extraction-From-News-Web-Pages)
   - [Dataset Description](#dataset-description-1)
   - [Data Collection](#data-collection-1)
@@ -17,7 +15,7 @@
 
 ## Dataset For Information Extraction From News Web Pages
 
-Multilingual dataset of labeled news web pages for information extraction task
+Multilingual dataset of labeled news web pages for information extraction task.
 
 <h3 id="dataset-description-1">Dataset Description</h3> 
 

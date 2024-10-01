@@ -1,3 +1,4 @@
+Overall: 781 sites, 109 372 pages, 677 840 labels
 
 <table>
   <thead>
