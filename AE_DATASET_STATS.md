@@ -1,4 +1,5 @@
-Overall: 781 sites, 109 372 pages, 677 840 labels
+Overall: 783 sites, 30 003 pages, 678 411 labels
+
 
 <table>
   <thead>
@@ -35,10 +36,10 @@ Overall: 781 sites, 109 372 pages, 677 840 labels
 </tr>
 <tr>
     <td>Sites with attribute<br>Pages with attribute<br>Nodes with attribute</td>
-    <td>58<br>2198<br>2251</td>
-    <td>58<br>2216<br>21175</td>
-    <td>59<br>2218<br>2732</td>
-    <td>17<br>517<br>738</td>
+    <td>58<br>2198<br>2248</td>
+    <td>59<br>2217<br>26354</td>
+    <td>59<br>2218<br>2538</td>
+    <td>17<br>517<br>739</td>
     <td>12<br>407<br>1811</td>
 </tr>
 
@@ -87,14 +88,14 @@ Overall: 781 sites, 109 372 pages, 677 840 labels
 <tr>
     <td rowspan="2">de</td>
     <td style="text-align: center">Sites / Pages</td>
-    <td colspan="5" style="text-align: center">9 / 450</td>
+    <td colspan="5" style="text-align: center">14 / 527</td>
 </tr>
 <tr>
     <td>Sites with attribute<br>Pages with attribute<br>Nodes with attribute</td>
-    <td>9<br>450<br>454</td>
-    <td>9<br>449<br>6847</td>
-    <td>9<br>450<br>600</td>
-    <td>9<br>270<br>308</td>
+    <td>14<br>527<br>546</td>
+    <td>14<br>526<br>7776</td>
+    <td>14<br>527<br>677</td>
+    <td>10<br>273<br>311</td>
     <td>2<br>100<br>336</td>
 </tr>
 
@@ -133,11 +134,11 @@ Overall: 781 sites, 109 372 pages, 677 840 labels
 </tr>
 <tr>
     <td>Sites with attribute<br>Pages with attribute<br>Nodes with attribute</td>
-    <td>319<br>10428<br>10686</td>
-    <td>320<br>10469<br>192188</td>
-    <td>309<br>10069<br>10489</td>
-    <td>136<br>3920<br>4332</td>
-    <td>73<br>2080<br>7013</td>
+    <td>319<br>10418<br>10674</td>
+    <td>320<br>10468<br>192737</td>
+    <td>308<br>10052<br>10394</td>
+    <td>135<br>3849<br>4154</td>
+    <td>73<br>2050<br>6956</td>
 </tr>
 
 <tr>
@@ -147,8 +148,8 @@ Overall: 781 sites, 109 372 pages, 677 840 labels
 </tr>
 <tr>
     <td>Sites with attribute<br>Pages with attribute<br>Nodes with attribute</td>
-    <td>92<br>3579<br>3580</td>
-    <td>92<br>3525<br>110752</td>
+    <td>92<br>3541<br>3542</td>
+    <td>92<br>3525<br>110552</td>
     <td>91<br>3568<br>3810</td>
     <td>51<br>1987<br>2635</td>
     <td>37<br>1442<br>6106</td>
@@ -204,7 +205,7 @@ Overall: 781 sites, 109 372 pages, 677 840 labels
 <tr>
     <td>Sites with attribute<br>Pages with attribute<br>Nodes with attribute</td>
     <td>58<br>1701<br>1706</td>
-    <td>59<br>1750<br>31201</td>
+    <td>59<br>1708<br>31150</td>
     <td>57<br>1743<br>1752</td>
     <td>23<br>791<br>807</td>
     <td>15<br>378<br>839</td>
@@ -259,8 +260,8 @@ Overall: 781 sites, 109 372 pages, 677 840 labels
 </tr>
 <tr>
     <td>Sites with attribute<br>Pages with attribute<br>Nodes with attribute</td>
-    <td>13<br>472<br>472</td>
-    <td>13<br>471<br>8922</td>
+    <td>13<br>473<br>473</td>
+    <td>13<br>471<br>8868</td>
     <td>13<br>464<br>464</td>
     <td>7<br>125<br>126</td>
     <td>7<br>154<br>623</td>
@@ -274,7 +275,7 @@ Overall: 781 sites, 109 372 pages, 677 840 labels
 <tr>
     <td>Sites with attribute<br>Pages with attribute<br>Nodes with attribute</td>
     <td>11<br>275<br>275</td>
-    <td>11<br>259<br>4351</td>
+    <td>11<br>268<br>4437</td>
     <td>11<br>275<br>275</td>
     <td>5<br>106<br>106</td>
     <td>4<br>84<br>214</td>
@@ -414,7 +415,7 @@ Overall: 781 sites, 109 372 pages, 677 840 labels
 <tr>
     <td>Sites with attribute<br>Pages with attribute<br>Nodes with attribute</td>
     <td>43<br>1584<br>1584</td>
-    <td>43<br>1583<br>34677</td>
+    <td>43<br>1582<br>33000</td>
     <td>43<br>1581<br>1581</td>
     <td>21<br>667<br>797</td>
     <td>17<br>571<br>2020</td>
@@ -427,11 +428,11 @@ Overall: 781 sites, 109 372 pages, 677 840 labels
 </tr>
 <tr>
     <td>Sites with attribute<br>Pages with attribute<br>Nodes with attribute</td>
-    <td>84<br>3523<br>3531</td>
-    <td>85<br>3623<br>79980</td>
-    <td>82<br>3396<br>3911</td>
-    <td>17<br>429<br>483</td>
-    <td>25<br>1110<br>4599</td>
+    <td>85<br>3623<br>3631</td>
+    <td>85<br>3623<br>78991</td>
+    <td>81<br>3346<br>3861</td>
+    <td>17<br>422<br>476</td>
+    <td>26<br>1197<br>4805</td>
 </tr>
 
 <tr>
@@ -609,10 +610,10 @@ Overall: 781 sites, 109 372 pages, 677 840 labels
 </tr>
 <tr>
     <td>Sites with attribute<br>Pages with attribute<br>Nodes with attribute</td>
-    <td>12<br>951<br>951</td>
-    <td>12<br>951<br>12527</td>
-    <td>12<br>951<br>951</td>
-    <td>5<br>318<br>318</td>
+    <td>12<br>890<br>890</td>
+    <td>11<br>888<br>11792</td>
+    <td>11<br>888<br>888</td>
+    <td>4<br>255<br>255</td>
     <td>0<br>0<br>0</td>
 </tr>
 
@@ -624,7 +625,7 @@ Overall: 781 sites, 109 372 pages, 677 840 labels
 <tr>
     <td>Sites with attribute<br>Pages with attribute<br>Nodes with attribute</td>
     <td>6<br>85<br>85</td>
-    <td>6<br>85<br>1463</td>
+    <td>6<br>85<br>1154</td>
     <td>6<br>85<br>85</td>
     <td>3<br>56<br>56</td>
     <td>1<br>11<br>43</td>
