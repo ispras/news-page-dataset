@@ -86,11 +86,11 @@ We additionally added `html_en` with translated HTML into English.
 
 <h3 id="download-1">Download</h3> 
 
-* Multilingual dataset (8.4 GB): [`multilingual-ae/`]()
-* Multilingual web pages in MHTML (zipped 43.7 GB): [`multilingual-ae-mhtml.zip`]()
-* Multilingual web pages in HTML (zipped 1.4 GB): [`multilingual-ae-html.zip`]()
-* Russian dataset (178 MB): [`russian.json`]()
-* Russian web pages in MHTML (zipped 1 GB): [`russian-ae-mhtml.zip`]()
+* Multilingual dataset (8.4 GB): [`multilingual-ae/`](https://nextcloud.ispras.ru/index.php/s/gkttoE637s9kxfJ)
+* Multilingual web pages in MHTML (zipped 43.9 GB): [`multilingual-ae-mhtml.zip`](https://nextcloud.ispras.ru/index.php/s/RbxBaq3P7MD9DCC)
+* Multilingual web pages in HTML (zipped 1.5 GB): [`multilingual-ae-html.zip`](https://nextcloud.ispras.ru/index.php/s/L2DTDdkRfwmy4PS)
+* Russian dataset (178 MB): [`russian.json`](https://nextcloud.ispras.ru/index.php/s/fHgbox8mZYkQkew)
+* Russian web pages in MHTML (zipped 1 GB): [`russian-ae-mhtml.zip`](https://nextcloud.ispras.ru/index.php/s/xm7NGX7bya7W8eo)
 
 <h3 id="citation-1">Citation</h3> 
 
@@ -139,7 +139,7 @@ Each file from data folder is instance of json dictionary with fields:
 * **labeled_xpaths**: dictionary of xpaths and its labels
 * **timestamp**: timestamp of date, when page was loaded
 * **url**: url of page
-* **record_xpaths**: xpaths of block-nodes(first text node of each record)
+* **record_xpaths**: xpaths of block-nodes (first text node of each record)
 
 <h3 id="download-2">Download</h3> 
 
